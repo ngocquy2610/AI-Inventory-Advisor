@@ -1,0 +1,5 @@
+{
+  "default": { "fast": 10, "medium": 3, "slow": 0.5 },
+  "electronics": { "fast": 5, "medium": 1.5, "slow": 0.3 },
+  "groceries": { "fast": 15, "medium": 5, "slow": 1 }
+}
