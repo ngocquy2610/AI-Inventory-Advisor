@@ -1,0 +1,1385 @@
+{
+  "products": [
+    {
+      "id": "prod-001",
+      "sku": "IPH15-128-BLK",
+      "name": "Apple iPhone 15 128GB Black",
+      "category": "Smartphone",
+      "unit_cost": 18000000,
+      "unit_price": 21990000,
+      "default_supplier_id": "sup-001"
+    },
+    {
+      "id": "prod-002",
+      "sku": "IPH15-256-BLU",
+      "name": "Apple iPhone 15 256GB Blue",
+      "category": "Smartphone",
+      "unit_cost": 20500000,
+      "unit_price": 24990000,
+      "default_supplier_id": "sup-001"
+    },
+    {
+      "id": "prod-003",
+      "sku": "AIRPODS-PRO2",
+      "name": "Apple AirPods Pro (2nd Gen)",
+      "category": "Audio",
+      "unit_cost": 4200000,
+      "unit_price": 5990000,
+      "default_supplier_id": "sup-002"
+    },
+    {
+      "id": "prod-004",
+      "sku": "WATCH-S9-GPS",
+      "name": "Apple Watch Series 9 GPS",
+      "category": "Wearable",
+      "unit_cost": 8200000,
+      "unit_price": 10990000,
+      "default_supplier_id": "sup-002"
+    },
+    {
+      "id": "prod-005",
+      "sku": "IPAD-AIR-M2",
+      "name": "Apple iPad Air M2",
+      "category": "Tablet",
+      "unit_cost": 13500000,
+      "unit_price": 16990000,
+      "default_supplier_id": "sup-001"
+    },
+    {
+      "id": "prod-006",
+      "sku": "MBA-M3-13",
+      "name": "MacBook Air M3 13-inch",
+      "category": "Laptop",
+      "unit_cost": 24500000,
+      "unit_price": 29990000,
+      "default_supplier_id": "sup-003"
+    },
+    {
+      "id": "prod-007",
+      "sku": "MXMASTER3S",
+      "name": "Logitech MX Master 3S Mouse",
+      "category": "Accessory",
+      "unit_cost": 1800000,
+      "unit_price": 2490000,
+      "default_supplier_id": "sup-004"
+    },
+    {
+      "id": "prod-008",
+      "sku": "ANKER-65W",
+      "name": "Anker Nano II 65W Charger",
+      "category": "Accessory",
+      "unit_cost": 650000,
+      "unit_price": 990000,
+      "default_supplier_id": "sup-005"
+    },
+    {
+      "id": "prod-009",
+      "sku": "SSD-T7-1TB",
+      "name": "Samsung T7 Portable SSD 1TB",
+      "category": "Storage",
+      "unit_cost": 1900000,
+      "unit_price": 2690000,
+      "default_supplier_id": "sup-006"
+    },
+    {
+      "id": "prod-010",
+      "sku": "KEYCHRON-K8",
+      "name": "Keychron K8 Wireless Mechanical Keyboard",
+      "category": "Accessory",
+      "unit_cost": 1600000,
+      "unit_price": 2290000,
+      "default_supplier_id": "sup-004"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "sup-001",
+      "name": "Apple Vietnam Distribution",
+      "contact_email": "sales@apple-vn.com",
+      "contact_phone": "+84-28-1111-1111"
+    },
+    {
+      "id": "sup-002",
+      "name": "Apple Accessories Distributor",
+      "contact_email": "contact@aad.vn",
+      "contact_phone": "+84-28-2222-2222"
+    },
+    {
+      "id": "sup-003",
+      "name": "Apple Premium Supply",
+      "contact_email": "business@aps.vn",
+      "contact_phone": "+84-24-3333-3333"
+    },
+    {
+      "id": "sup-004",
+      "name": "Logitech Vietnam",
+      "contact_email": "sales@logitech.vn",
+      "contact_phone": "+84-28-4444-4444"
+    },
+    {
+      "id": "sup-005",
+      "name": "Anker Vietnam",
+      "contact_email": "partner@anker.vn",
+      "contact_phone": "+84-24-5555-5555"
+    },
+    {
+      "id": "sup-006",
+      "name": "Samsung Electronics Vietnam",
+      "contact_email": "enterprise@samsung.vn",
+      "contact_phone": "+84-28-6666-6666"
+    }
+  ],
+  "stores": [
+    {
+      "id": "store-001",
+      "name": "TechStore Hanoi",
+      "region": "North",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "id": "store-002",
+      "name": "TechStore Ho Chi Minh",
+      "region": "South",
+      "timezone": "Asia/Ho_Chi_Minh"
+    }
+  ],
+  "product_store_stock": [
+    {
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "current_stock": 250,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "current_stock": 210,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-002",
+      "store_id": "store-001",
+      "current_stock": 140,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-002",
+      "store_id": "store-002",
+      "current_stock": 160,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "current_stock": 380,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-003",
+      "store_id": "store-002",
+      "current_stock": 340,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-004",
+      "store_id": "store-001",
+      "current_stock": 95,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-004",
+      "store_id": "store-002",
+      "current_stock": 80,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-005",
+      "store_id": "store-001",
+      "current_stock": 75,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-005",
+      "store_id": "store-002",
+      "current_stock": 68,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-006",
+      "store_id": "store-001",
+      "current_stock": 30,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-006",
+      "store_id": "store-002",
+      "current_stock": 25,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-007",
+      "store_id": "store-001",
+      "current_stock": 450,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-007",
+      "store_id": "store-002",
+      "current_stock": 420,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "current_stock": 700,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-008",
+      "store_id": "store-002",
+      "current_stock": 650,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-009",
+      "store_id": "store-001",
+      "current_stock": 160,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-009",
+      "store_id": "store-002",
+      "current_stock": 140,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-010",
+      "store_id": "store-001",
+      "current_stock": 230,
+      "updated_at": "2026-07-15T23:59:00Z"
+    },
+    {
+      "product_id": "prod-010",
+      "store_id": "store-002",
+      "current_stock": 210,
+      "updated_at": "2026-07-15T23:59:00Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promo-001",
+      "name": "iPhone Summer Sale",
+      "product_id": "prod-001",
+      "category": null,
+      "store_id": null,
+      "discount_pct": 10,
+      "start_date": "2026-05-15",
+      "end_date": "2026-05-25",
+      "expected_uplift_pct": 25
+    },
+    {
+      "id": "promo-002",
+      "name": "AirPods Weekend Deal",
+      "product_id": "prod-003",
+      "category": null,
+      "store_id": null,
+      "discount_pct": 15,
+      "start_date": "2026-06-12",
+      "end_date": "2026-06-14",
+      "expected_uplift_pct": 40
+    },
+    {
+      "id": "promo-003",
+      "name": "Accessory Mega Sale",
+      "product_id": null,
+      "category": "Accessory",
+      "store_id": null,
+      "discount_pct": 20,
+      "start_date": "2026-06-20",
+      "end_date": "2026-06-30",
+      "expected_uplift_pct": 35
+    },
+    {
+      "id": "promo-004",
+      "name": "Back to School",
+      "product_id": null,
+      "category": "Laptop",
+      "store_id": null,
+      "discount_pct": 8,
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-15",
+      "expected_uplift_pct": 18
+    },
+    {
+      "id": "promo-005",
+      "name": "Hanoi Anniversary Sale",
+      "product_id": null,
+      "category": null,
+      "store_id": "store-001",
+      "discount_pct": 12,
+      "start_date": "2026-07-10",
+      "end_date": "2026-07-17",
+      "expected_uplift_pct": 22
+    }
+  ],
+  "calendar_events": [
+    {
+      "id": "event-001",
+      "name": "Labor Day",
+      "event_date": "2026-05-01",
+      "scope": "National",
+      "category": null,
+      "expected_uplift_pct": 15
+    },
+    {
+      "id": "event-002",
+      "name": "Children's Day",
+      "event_date": "2026-06-01",
+      "scope": "National",
+      "category": "Audio",
+      "expected_uplift_pct": 20
+    },
+    {
+      "id": "event-003",
+      "name": "Summer Vacation",
+      "event_date": "2026-06-15",
+      "scope": "National",
+      "category": "Tablet",
+      "expected_uplift_pct": 18
+    },
+    {
+      "id": "event-004",
+      "name": "University Enrollment",
+      "event_date": "2026-07-05",
+      "scope": "National",
+      "category": "Laptop",
+      "expected_uplift_pct": 30
+    },
+    {
+      "id": "event-005",
+      "name": "Monthly Payday",
+      "event_date": "2026-05-25",
+      "scope": "Recurring",
+      "category": null,
+      "expected_uplift_pct": 12
+    },
+    {
+      "id": "event-006",
+      "name": "Monthly Payday",
+      "event_date": "2026-06-25",
+      "scope": "Recurring",
+      "category": null,
+      "expected_uplift_pct": 12
+    },
+    {
+      "id": "event-007",
+      "name": "Monthly Payday",
+      "event_date": "2026-07-25",
+      "scope": "Recurring",
+      "category": null,
+      "expected_uplift_pct": 12
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn-000001",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 5,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-01T09:15:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000002",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 8,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-01T11:30:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000003",
+      "product_id": "prod-008",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 15,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-01T14:20:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000004",
+      "product_id": "prod-006",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 2,
+      "unit_price": 29990000,
+      "occurred_at": "2026-05-01T16:10:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000005",
+      "product_id": "prod-007",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 6,
+      "unit_price": 2490000,
+      "occurred_at": "2026-05-02T09:40:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000006",
+      "product_id": "prod-009",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 4,
+      "unit_price": 2690000,
+      "occurred_at": "2026-05-02T10:30:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000007",
+      "product_id": "prod-004",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 3,
+      "unit_price": 10990000,
+      "occurred_at": "2026-05-02T13:00:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000008",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "return",
+      "quantity": 1,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-02T17:00:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000009",
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 7,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-03T09:30:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000010",
+      "product_id": "prod-010",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 5,
+      "unit_price": 2290000,
+      "occurred_at": "2026-05-03T10:10:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000011",
+      "product_id": "prod-005",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 2,
+      "unit_price": 16990000,
+      "occurred_at": "2026-05-03T13:20:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000012",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 20,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-03T16:40:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000013",
+      "product_id": "prod-002",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 4,
+      "unit_price": 24990000,
+      "occurred_at": "2026-05-04T09:20:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000014",
+      "product_id": "prod-007",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 7,
+      "unit_price": 2490000,
+      "occurred_at": "2026-05-04T12:00:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000015",
+      "product_id": "prod-006",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 1,
+      "unit_price": 29990000,
+      "occurred_at": "2026-05-04T15:30:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000016",
+      "product_id": "prod-003",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 10,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-05T10:00:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000017",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 6,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-05T11:45:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000018",
+      "product_id": "prod-009",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 5,
+      "unit_price": 2690000,
+      "occurred_at": "2026-05-05T14:10:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000019",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "adjustment",
+      "quantity": -4,
+      "unit_price": null,
+      "occurred_at": "2026-05-06T09:00:00Z",
+      "source": "manual"
+    },
+    {
+      "id": "txn-000020",
+      "product_id": "prod-010",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 4,
+      "unit_price": 2290000,
+      "occurred_at": "2026-05-06T11:15:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000021",
+      "product_id": "prod-005",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 3,
+      "unit_price": 16990000,
+      "occurred_at": "2026-05-07T09:40:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000022",
+      "product_id": "prod-004",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 2,
+      "unit_price": 10990000,
+      "occurred_at": "2026-05-07T13:10:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000023",
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 8,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-08T10:20:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000024",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 12,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-08T15:50:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000025",
+      "product_id": "prod-007",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 9,
+      "unit_price": 2490000,
+      "occurred_at": "2026-05-09T09:25:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000026",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 24,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-09T12:40:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000027",
+      "product_id": "prod-002",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 5,
+      "unit_price": 24990000,
+      "occurred_at": "2026-05-09T16:15:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000028",
+      "product_id": "prod-006",
+      "store_id": "store-001",
+      "type": "return",
+      "quantity": 1,
+      "unit_price": 29990000,
+      "occurred_at": "2026-05-10T10:00:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000029",
+      "product_id": "prod-003",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 11,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-10T13:45:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000030",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 9,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-10T17:20:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000031",
+      "product_id": "prod-008",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 18,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-11T09:20:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000032",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 6,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-11T10:45:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000033",
+      "product_id": "prod-004",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 4,
+      "unit_price": 10990000,
+      "occurred_at": "2026-05-11T14:10:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000034",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 9,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-11T16:00:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000035",
+      "product_id": "prod-007",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 8,
+      "unit_price": 2490000,
+      "occurred_at": "2026-05-12T09:15:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000036",
+      "product_id": "prod-002",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 5,
+      "unit_price": 24990000,
+      "occurred_at": "2026-05-12T11:40:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000037",
+      "product_id": "prod-009",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 6,
+      "unit_price": 2690000,
+      "occurred_at": "2026-05-12T15:30:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000038",
+      "product_id": "prod-005",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 3,
+      "unit_price": 16990000,
+      "occurred_at": "2026-05-12T17:00:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000039",
+      "product_id": "prod-003",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 10,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-13T10:05:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000040",
+      "product_id": "prod-010",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 6,
+      "unit_price": 2290000,
+      "occurred_at": "2026-05-13T13:15:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000041",
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 8,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-13T16:10:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000042",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 22,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-13T18:20:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000043",
+      "product_id": "prod-006",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 1,
+      "unit_price": 29990000,
+      "occurred_at": "2026-05-14T09:30:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000044",
+      "product_id": "prod-004",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 3,
+      "unit_price": 10990000,
+      "occurred_at": "2026-05-14T11:10:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000045",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "return",
+      "quantity": 1,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-14T15:45:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000046",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 12,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-15T09:00:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000047",
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 11,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-15T10:40:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000048",
+      "product_id": "prod-002",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 8,
+      "unit_price": 24990000,
+      "occurred_at": "2026-05-15T13:30:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000049",
+      "product_id": "prod-008",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 25,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-15T15:20:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000050",
+      "product_id": "prod-007",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 10,
+      "unit_price": 2490000,
+      "occurred_at": "2026-05-15T17:10:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000051",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 14,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-16T09:15:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000052",
+      "product_id": "prod-003",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 14,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-16T10:50:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000053",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 28,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-16T13:10:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000054",
+      "product_id": "prod-005",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 4,
+      "unit_price": 16990000,
+      "occurred_at": "2026-05-16T15:00:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000055",
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 15,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-17T09:20:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000056",
+      "product_id": "prod-002",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 7,
+      "unit_price": 24990000,
+      "occurred_at": "2026-05-17T11:00:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000057",
+      "product_id": "prod-009",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 8,
+      "unit_price": 2690000,
+      "occurred_at": "2026-05-17T13:40:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000058",
+      "product_id": "prod-008",
+      "store_id": "store-002",
+      "type": "adjustment",
+      "quantity": -6,
+      "unit_price": null,
+      "occurred_at": "2026-05-17T15:15:00Z",
+      "source": "manual"
+    },
+    {
+      "id": "txn-000059",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 13,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-18T09:45:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000060",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 13,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-18T16:30:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000061",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 21,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-19T09:10:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000062",
+      "product_id": "prod-004",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 4,
+      "unit_price": 10990000,
+      "occurred_at": "2026-05-19T10:45:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000063",
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 12,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-19T13:30:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000064",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 10,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-19T16:15:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000065",
+      "product_id": "prod-007",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 9,
+      "unit_price": 2490000,
+      "occurred_at": "2026-05-20T09:20:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000066",
+      "product_id": "prod-005",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 2,
+      "unit_price": 16990000,
+      "occurred_at": "2026-05-20T11:05:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000067",
+      "product_id": "prod-010",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 7,
+      "unit_price": 2290000,
+      "occurred_at": "2026-05-20T14:30:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000068",
+      "product_id": "prod-009",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 5,
+      "unit_price": 2690000,
+      "occurred_at": "2026-05-20T17:10:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000069",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 11,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-21T09:35:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000070",
+      "product_id": "prod-003",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 12,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-21T11:40:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000071",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 24,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-21T14:00:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000072",
+      "product_id": "prod-002",
+      "store_id": "store-002",
+      "type": "return",
+      "quantity": 1,
+      "unit_price": 24990000,
+      "occurred_at": "2026-05-21T16:20:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000073",
+      "product_id": "prod-006",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 1,
+      "unit_price": 29990000,
+      "occurred_at": "2026-05-22T10:15:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000074",
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 16,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-22T12:40:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000075",
+      "product_id": "prod-008",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 26,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-22T15:10:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000076",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 15,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-22T17:30:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000077",
+      "product_id": "prod-007",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 11,
+      "unit_price": 2490000,
+      "occurred_at": "2026-05-23T09:00:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000078",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 18,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-23T10:25:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000079",
+      "product_id": "prod-003",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 16,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-23T13:10:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000080",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 30,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-23T16:40:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000081",
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 17,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-24T09:30:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000082",
+      "product_id": "prod-002",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 9,
+      "unit_price": 24990000,
+      "occurred_at": "2026-05-24T11:10:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000083",
+      "product_id": "prod-004",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 5,
+      "unit_price": 10990000,
+      "occurred_at": "2026-05-24T13:40:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000084",
+      "product_id": "prod-008",
+      "store_id": "store-002",
+      "type": "adjustment",
+      "quantity": -5,
+      "unit_price": null,
+      "occurred_at": "2026-05-24T16:15:00Z",
+      "source": "manual"
+    },
+    {
+      "id": "txn-000085",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 19,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-25T09:10:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000086",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 18,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-25T11:35:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000087",
+      "product_id": "prod-005",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 4,
+      "unit_price": 16990000,
+      "occurred_at": "2026-05-25T14:20:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000088",
+      "product_id": "prod-010",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 8,
+      "unit_price": 2290000,
+      "occurred_at": "2026-05-25T16:45:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000089",
+      "product_id": "prod-009",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 7,
+      "unit_price": 2690000,
+      "occurred_at": "2026-05-26T10:00:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000090",
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 15,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-26T15:20:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000091",
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 17,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-27T09:15:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000092",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 29,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-27T10:40:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000093",
+      "product_id": "prod-002",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 8,
+      "unit_price": 24990000,
+      "occurred_at": "2026-05-27T13:20:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000094",
+      "product_id": "prod-007",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 10,
+      "unit_price": 2490000,
+      "occurred_at": "2026-05-27T16:05:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000095",
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 14,
+      "unit_price": 21990000,
+      "occurred_at": "2026-05-28T09:30:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000096",
+      "product_id": "prod-004",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 3,
+      "unit_price": 10990000,
+      "occurred_at": "2026-05-28T11:10:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000097",
+      "product_id": "prod-006",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 2,
+      "unit_price": 29990000,
+      "occurred_at": "2026-05-28T13:45:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000098",
+      "product_id": "prod-009",
+      "store_id": "store-002",
+      "type": "order",
+      "quantity": 6,
+      "unit_price": 2690000,
+      "occurred_at": "2026-05-28T15:25:00Z",
+      "source": "pos"
+    },
+    {
+      "id": "txn-000099",
+      "product_id": "prod-003",
+      "store_id": "store-002",
+      "type": "return",
+      "quantity": 1,
+      "unit_price": 5990000,
+      "occurred_at": "2026-05-28T17:10:00Z",
+      "source": "ecommerce"
+    },
+    {
+      "id": "txn-000100",
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "type": "order",
+      "quantity": 32,
+      "unit_price": 990000,
+      "occurred_at": "2026-05-29T10:00:00Z",
+      "source": "pos"
+    }
+  ]
+}
