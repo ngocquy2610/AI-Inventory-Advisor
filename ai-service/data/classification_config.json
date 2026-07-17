@@ -1,0 +1,4 @@
+{
+  "min_days_with_sales_for_classification": 3,
+  "dead_stock_no_sale_days": 21
+}
