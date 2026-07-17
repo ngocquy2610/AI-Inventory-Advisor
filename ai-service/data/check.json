@@ -1,0 +1,624 @@
+{
+  "profiles": [
+    {
+      "product_id": "prod-001",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 127.0,
+        "average_daily_sales": 4.38,
+        "days_with_sales": 11,
+        "average_order_quantity": 11.55,
+        "last_sale_date": "2026-05-28",
+        "moving_average_7": 14.43,
+        "moving_average_30": null,
+        "growth_rate": 95.18,
+        "trend": "Increasing",
+        "standard_deviation": 4.72,
+        "coefficient_of_variation": 1.0777,
+        "volatility": "High",
+        "weekday_average": 4.1,
+        "weekend_average": 5.12,
+        "weekend_ratio": 1.25,
+        "promotion_sales_ratio": 1.81
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 42.5,
+        "status": "Watch"
+      }
+    },
+    {
+      "product_id": "prod-001",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 109.0,
+        "average_daily_sales": 3.76,
+        "days_with_sales": 9,
+        "average_order_quantity": 12.11,
+        "last_sale_date": "2026-05-26",
+        "moving_average_7": 13.43,
+        "moving_average_30": null,
+        "growth_rate": 76.47,
+        "trend": "Increasing",
+        "standard_deviation": 3.82,
+        "coefficient_of_variation": 1.017,
+        "volatility": "High",
+        "weekday_average": 3.33,
+        "weekend_average": 4.88,
+        "weekend_ratio": 1.46,
+        "promotion_sales_ratio": 1.49
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 42.0,
+        "status": "Watch"
+      }
+    },
+    {
+      "product_id": "prod-002",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 28.0,
+        "average_daily_sales": 0.97,
+        "days_with_sales": 4,
+        "average_order_quantity": 7.0,
+        "last_sale_date": "2026-05-24",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": 33.33,
+        "trend": "Increasing",
+        "standard_deviation": 2.16,
+        "coefficient_of_variation": 2.2374,
+        "volatility": "High",
+        "weekday_average": 0.57,
+        "weekend_average": 2.0,
+        "weekend_ratio": 3.5,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 39.8,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-002",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 18.0,
+        "average_daily_sales": 0.62,
+        "days_with_sales": 3,
+        "average_order_quantity": 6.0,
+        "last_sale_date": "2026-05-27",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": null,
+        "trend": null,
+        "standard_deviation": 1.73,
+        "coefficient_of_variation": 2.7905,
+        "volatility": "High",
+        "weekday_average": 0.62,
+        "weekend_average": 0.62,
+        "weekend_ratio": 1.01,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 25.5,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-003",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 102.0,
+        "average_daily_sales": 3.52,
+        "days_with_sales": 8,
+        "average_order_quantity": 12.75,
+        "last_sale_date": "2026-05-27",
+        "moving_average_7": 13.43,
+        "moving_average_30": null,
+        "growth_rate": 42.86,
+        "trend": "Increasing",
+        "standard_deviation": 3.69,
+        "coefficient_of_variation": 1.0501,
+        "volatility": "High",
+        "weekday_average": 4.86,
+        "weekend_average": 0.0,
+        "weekend_ratio": 0.0,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 41.8,
+        "status": "Watch"
+      }
+    },
+    {
+      "product_id": "prod-003",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 73.0,
+        "average_daily_sales": 2.52,
+        "days_with_sales": 6,
+        "average_order_quantity": 12.17,
+        "last_sale_date": "2026-05-23",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": 35.48,
+        "trend": "Increasing",
+        "standard_deviation": 2.4,
+        "coefficient_of_variation": 0.954,
+        "volatility": "Medium",
+        "weekday_average": 1.52,
+        "weekend_average": 5.12,
+        "weekend_ratio": 3.36,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 48.5,
+        "status": "Watch"
+      }
+    },
+    {
+      "product_id": "prod-004",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 10.0,
+        "average_daily_sales": 0.34,
+        "days_with_sales": 3,
+        "average_order_quantity": 3.33,
+        "last_sale_date": "2026-05-24",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": null,
+        "trend": null,
+        "standard_deviation": 1.53,
+        "coefficient_of_variation": 4.4298,
+        "volatility": "High",
+        "weekday_average": 0.24,
+        "weekend_average": 0.62,
+        "weekend_ratio": 2.62,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 25.3,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-004",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 14.0,
+        "average_daily_sales": 0.48,
+        "days_with_sales": 4,
+        "average_order_quantity": 3.5,
+        "last_sale_date": "2026-05-28",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": 0.0,
+        "trend": "Stable",
+        "standard_deviation": 0.58,
+        "coefficient_of_variation": 1.1959,
+        "volatility": "High",
+        "weekday_average": 0.52,
+        "weekend_average": 0.38,
+        "weekend_ratio": 0.72,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 28.9,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-005",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 5.0,
+        "average_daily_sales": 0.17,
+        "days_with_sales": 2,
+        "average_order_quantity": 2.5,
+        "last_sale_date": "2026-05-20",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": null,
+        "trend": null,
+        "standard_deviation": 0.71,
+        "coefficient_of_variation": 4.1012,
+        "volatility": "High",
+        "weekday_average": 0.24,
+        "weekend_average": 0.0,
+        "weekend_ratio": 0.0,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 25.1,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-005",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 13.0,
+        "average_daily_sales": 0.45,
+        "days_with_sales": 4,
+        "average_order_quantity": 3.25,
+        "last_sale_date": "2026-05-25",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": 60.0,
+        "trend": "Increasing",
+        "standard_deviation": 0.96,
+        "coefficient_of_variation": 2.1358,
+        "volatility": "High",
+        "weekday_average": 0.33,
+        "weekend_average": 0.75,
+        "weekend_ratio": 2.25,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 39.4,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-006",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 5.0,
+        "average_daily_sales": 0.17,
+        "days_with_sales": 3,
+        "average_order_quantity": 1.67,
+        "last_sale_date": "2026-05-28",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": null,
+        "trend": null,
+        "standard_deviation": 0.58,
+        "coefficient_of_variation": 3.3486,
+        "volatility": "High",
+        "weekday_average": 0.24,
+        "weekend_average": 0.0,
+        "weekend_ratio": 0.0,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 25.1,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-006",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 2.0,
+        "average_daily_sales": 0.07,
+        "days_with_sales": 2,
+        "average_order_quantity": 1.0,
+        "last_sale_date": "2026-05-14",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": null,
+        "trend": null,
+        "standard_deviation": 0.0,
+        "coefficient_of_variation": 0.0,
+        "volatility": "Low",
+        "weekday_average": 0.1,
+        "weekend_average": 0.0,
+        "weekend_ratio": 0.0,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 40.1,
+        "status": "Watch"
+      }
+    },
+    {
+      "product_id": "prod-007",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 46.0,
+        "average_daily_sales": 1.59,
+        "days_with_sales": 5,
+        "average_order_quantity": 9.2,
+        "last_sale_date": "2026-05-27",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": 37.78,
+        "trend": "Increasing",
+        "standard_deviation": 1.64,
+        "coefficient_of_variation": 1.0359,
+        "volatility": "High",
+        "weekday_average": 1.67,
+        "weekend_average": 1.38,
+        "weekend_ratio": 0.82,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 40.3,
+        "status": "Watch"
+      }
+    },
+    {
+      "product_id": "prod-007",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 24.0,
+        "average_daily_sales": 0.83,
+        "days_with_sales": 3,
+        "average_order_quantity": 8.0,
+        "last_sale_date": "2026-05-20",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": null,
+        "trend": null,
+        "standard_deviation": 1.73,
+        "coefficient_of_variation": 2.0929,
+        "volatility": "High",
+        "weekday_average": 0.43,
+        "weekend_average": 1.88,
+        "weekend_ratio": 4.38,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 25.7,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-008",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 230.0,
+        "average_daily_sales": 7.93,
+        "days_with_sales": 9,
+        "average_order_quantity": 25.56,
+        "last_sale_date": "2026-05-29",
+        "moving_average_7": 26.57,
+        "moving_average_30": null,
+        "growth_rate": 15.74,
+        "trend": "Increasing",
+        "standard_deviation": 4.3,
+        "coefficient_of_variation": 0.5427,
+        "volatility": "Medium",
+        "weekday_average": 6.1,
+        "weekend_average": 12.75,
+        "weekend_ratio": 2.09,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 52.8,
+        "status": "Watch"
+      }
+    },
+    {
+      "product_id": "prod-008",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 84.0,
+        "average_daily_sales": 2.9,
+        "days_with_sales": 4,
+        "average_order_quantity": 21.0,
+        "last_sale_date": "2026-05-22",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": 54.55,
+        "trend": "Increasing",
+        "standard_deviation": 5.35,
+        "coefficient_of_variation": 1.8484,
+        "volatility": "High",
+        "weekday_average": 4.0,
+        "weekend_average": 0.0,
+        "weekend_ratio": 0.0,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 41.3,
+        "status": "Watch"
+      }
+    },
+    {
+      "product_id": "prod-009",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 17.0,
+        "average_daily_sales": 0.59,
+        "days_with_sales": 3,
+        "average_order_quantity": 5.67,
+        "last_sale_date": "2026-05-26",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": null,
+        "trend": null,
+        "standard_deviation": 1.53,
+        "coefficient_of_variation": 2.6058,
+        "volatility": "High",
+        "weekday_average": 0.62,
+        "weekend_average": 0.5,
+        "weekend_ratio": 0.81,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 25.5,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-009",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 24.0,
+        "average_daily_sales": 0.83,
+        "days_with_sales": 4,
+        "average_order_quantity": 6.0,
+        "last_sale_date": "2026-05-28",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": -15.38,
+        "trend": "Decreasing",
+        "standard_deviation": 1.41,
+        "coefficient_of_variation": 1.7088,
+        "volatility": "High",
+        "weekday_average": 0.76,
+        "weekend_average": 1.0,
+        "weekend_ratio": 1.31,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 18.7,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-010",
+      "store_id": "store-001",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 18.0,
+        "average_daily_sales": 0.62,
+        "days_with_sales": 3,
+        "average_order_quantity": 6.0,
+        "last_sale_date": "2026-05-20",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": null,
+        "trend": null,
+        "standard_deviation": 1.0,
+        "coefficient_of_variation": 1.6111,
+        "volatility": "High",
+        "weekday_average": 0.62,
+        "weekend_average": 0.62,
+        "weekend_ratio": 1.01,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 25.5,
+        "status": "Critical"
+      }
+    },
+    {
+      "product_id": "prod-010",
+      "store_id": "store-002",
+      "analysis_period": {
+        "start": "2026-05-01",
+        "end": "2026-05-29"
+      },
+      "metrics": {
+        "total_quantity_sold": 12.0,
+        "average_daily_sales": 0.41,
+        "days_with_sales": 2,
+        "average_order_quantity": 6.0,
+        "last_sale_date": "2026-05-25",
+        "moving_average_7": null,
+        "moving_average_30": null,
+        "growth_rate": null,
+        "trend": null,
+        "standard_deviation": 2.83,
+        "coefficient_of_variation": 6.8354,
+        "volatility": "High",
+        "weekday_average": 0.57,
+        "weekend_average": 0.0,
+        "weekend_ratio": 0.0,
+        "promotion_sales_ratio": 0.0
+      },
+      "classification": {
+        "consumption_speed": "Slow",
+        "consumption_score": 25.3,
+        "status": "Critical"
+      }
+    }
+  ]
+}

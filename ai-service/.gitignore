@@ -1,0 +1,43 @@
+# Python virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Alembic migrations (keep versions, ignore cache)
+alembic/versions/*.pyc
+
+# Data files (if generated)
+data/*.json
+!data/check.json
+!data/module1_input.json
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
