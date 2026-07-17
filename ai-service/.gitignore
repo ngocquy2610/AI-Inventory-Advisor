@@ -33,7 +33,6 @@ Thumbs.db
 alembic/versions/*.pyc
 
 # Data files (if generated)
-data/*.json
 !data/check.json
 !data/module1_input.json
 
