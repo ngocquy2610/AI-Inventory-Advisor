@@ -2,6 +2,7 @@
 
 import logging
 import time
+import threading
 from datetime import date, datetime, timedelta
 from typing import Any
 
@@ -85,11 +86,18 @@ EVENT_KEYWORDS = [
     "concert", "carnival", "parade", "national day", "public holiday",
 ]
 
+NEWS_CONTEXT_CONFIDENCE_THRESHOLD = 0.8
+NEWS_CONTEXT_MAX_RESULTS = 8
+
 # Tavily result cache: (city_lower, date_str) -> (fetched_at, items, raw).
 # In-process only — fine for a single worker, but won't be shared across
 # multiple workers/replicas. Swap for Redis if that matters for deployment.
 _TAVILY_CACHE_TTL_SECONDS = 6 * 60 * 60  # 6 hours
-_tavily_cache: dict[tuple[str, str], tuple[float, list, list]] = {}
+# Simple in-process cache: (city_lower, date_str, category_lower) -> (fetched_at, items, raw)
+# Protect with a lock to avoid races from FastAPI threadpool handlers.
+_tavily_cache: dict[tuple[str, str, str], tuple[float, list, list]] = {}
+_tavily_cache_lock = threading.Lock()
+_TAVILY_CACHE_MAX_ENTRIES = 1000
 
 
 class ForecastService:
@@ -150,13 +158,15 @@ class ForecastService:
         )
 
         # 2. Compute base consumption metrics
-        base_daily, trend, seasonality, consumption_summary = self._compute_consumption_metrics(profiles)
+        base_daily, trend, seasonality, consumption_summary, insufficient_history = self._compute_consumption_metrics(profiles)
 
         # 3. Parse caller-supplied geolocate + localtime
         geo, local_dt = self._parse_geo_localtime(geolocate, localtime)
 
         # 4. Query Tavily for demand-relevant events
-        tavily_items, news_context = self._fetch_news(geo, local_dt)
+        tavily_items, news_context = self._fetch_news(
+            geo, local_dt, product_category
+        )
 
         # 5. Analyze news with LLM
         analysis, relevant_titles = self._analyze_news_with_llm(
@@ -176,30 +186,40 @@ class ForecastService:
             action_window_days = analysis.action_window_days
 
             # NEW: only apply a category-specific adjustment to a product
-            # that's actually in an affected category. Store-wide news
-            # (empty affected_categories) still applies to everything.
-            if analysis.affected_categories and product_category:
-                category_matches = False
-                for cat in analysis.affected_categories:
-                    if cat.strip().lower() == product_category.strip().lower():
-                        category_matches = True
-                        break
-                if not category_matches:
+            # that's actually in an affected category. If we have a
+            # category-scoped analysis but the caller did not supply the
+            # `product_category`, be conservative and do NOT apply the
+            # category-scoped adjustment (safe-by-default).
+            if analysis.affected_categories:
+                if not product_category:
+                    logger.debug("Category-scoped news present but product_category missing; skipping adjustment")
                     demand_adj = 1.0
                     conf_adj = 0.0
                     action_window_days = None
+                else:
+                    category_matches = False
+                    for cat in analysis.affected_categories:
+                        if cat.strip().lower() == product_category.strip().lower():
+                            category_matches = True
+                            break
+                    if not category_matches:
+                        demand_adj = 1.0
+                        conf_adj = 0.0
+                        action_window_days = None
 
             # NEW: keep only the news items the LLM judged relevant.
             tavily_items = self._apply_llm_relevance(tavily_items, relevant_titles)
+            tavily_items = self._filter_news_context_items(tavily_items)
 
         elif news_context:
-            # LLM unavailable but we have news — use keyword heuristic as fallback
+            # LLM unavailable but we have news — use keyword heuristic fallback
             sentiment = self._heuristic_sentiment_aggregate(news_context)
             demand_adj = self._compute_news_adjustment(sentiment)
             conf_adj = self._news_uncertainty_margin(sentiment)
             explanation = self._fallback_explanation(sentiment, geo)
             # NEW: same relevance filtering, done via keywords instead of the LLM.
             tavily_items = self._apply_heuristic_relevance(tavily_items)
+            tavily_items = self._filter_news_context_items(tavily_items)
 
         # 7. Build forecast points
         points: list[ForecastPoint] = []
@@ -221,15 +241,16 @@ class ForecastService:
 
             pred = base_daily * day_seasonality * trend_ramp * day_demand_adj
 
-            noise = float(np.random.normal(0, pred * 0.05))
-            pred = max(0.0, pred + noise)
-
+            # Deterministic point estimate (no random noise) so forecasts
+            # are reproducible. Capture a fixed uncertainty band instead.
+            pred = max(0.0, pred)
+            uncertainty = pred * 0.05
             points.append(
                 ForecastPoint(
                     date=d,
                     predicted_quantity=round(pred, 2),
-                    lower_bound=round(pred * (1.0 - margin), 2),
-                    upper_bound=round(pred * (1.0 + margin), 2),
+                    lower_bound=round(max(0.0, pred * (1.0 - margin) - uncertainty), 2),
+                    upper_bound=round(pred * (1.0 + margin) + uncertainty, 2),
                 )
             )
 
@@ -238,6 +259,8 @@ class ForecastService:
             model_used = "news_llm"
         elif news_context:
             model_used = "news_fallback"
+        if insufficient_history and analysis is None and not news_context:
+            model_used = "insufficient_history_default"
 
         avg_sentiment = 0.0
         if analysis is not None:
@@ -260,7 +283,11 @@ class ForecastService:
     # Consumption metrics
     # ======================================================================
     def _compute_consumption_metrics(self, profiles):
-        """Return (base_daily, trend, seasonality_dict, summary_string)."""
+        """Return (base_daily, trend, seasonality_dict, summary_string, insufficient_history).
+
+        The boolean `insufficient_history` is True when we fell back to a
+        fabricated default baseline due to no historical data.
+        """
         if profiles:
             quantities = [p.quantity_sold for p in profiles]
             base_daily = float(np.mean(quantities))
@@ -271,12 +298,13 @@ class ForecastService:
                 f"Trend: {trend:+.4f} per day. "
                 f"Days of history: {len(quantities)}."
             )
+            return base_daily, trend, seasonality, summary, False
         else:
             base_daily = 100.0
             trend = 0.0
             seasonality = {}
             summary = "No historical data available. Using default baseline."
-        return base_daily, trend, seasonality, summary
+            return base_daily, trend, seasonality, summary, True
 
     # ======================================================================
     # Trend
@@ -374,7 +402,10 @@ class ForecastService:
     # Tavily news fetch
     # ======================================================================
     def _fetch_news(
-        self, geo: str | None, local_dt: datetime | None
+        self,
+        geo: str | None,
+        local_dt: datetime | None,
+        product_category: str | None = None,
     ) -> tuple[list[NewsContextItem] | None, list[dict[str, str]]]:
         """Query Tavily for demand-relevant local + world events.
 
@@ -388,30 +419,63 @@ class ForecastService:
         city = geo.split(",")[0].strip()
 
         # NEW: cache hit avoids repeat Tavily calls for the same store/day
-        # when forecasting several products back to back.
-        cache_key = (city.lower(), local_date_str)
-        cached = _tavily_cache.get(cache_key)
+        # when forecasting several products back to back. Return fresh
+        # copies of cached NewsContextItem objects so callers can mutate
+        # them without polluting the shared cache.
+        cache_key = (city.lower(), local_date_str, (product_category or "").lower())
+        with _tavily_cache_lock:
+            cached = _tavily_cache.get(cache_key)
         if cached is not None:
             cached_at, cached_items, cached_raw = cached
             if time.time() - cached_at < _TAVILY_CACHE_TTL_SECONDS:
-                return cached_items, cached_raw
+                if cached_items is None:
+                    return None, cached_raw
+                # Clone cached items to avoid shared-mutable state.
+                cloned = [
+                    NewsContextItem(
+                        title=i.title,
+                        url=i.url,
+                        published_date=i.published_date,
+                        relevance_score=i.relevance_score,
+                    )
+                    for i in (cached_items or [])
+                ]
+                return cloned, cached_raw
 
         # NEW: split into targeted, forward-looking queries instead of one
-        # generic "news of {city}" query. This is what was returning noise —
-        # routine local news with no bearing on demand.
-        queries = [
-            f"upcoming festivals holidays events in {city} near {local_date_str}",
-            f"major sporting events tournaments finals {local_date_str}",
-            f"supply chain disruption shortage strike {local_date_str}",
+        # generic query. Use Tavern's native topic/days arguments for true
+        # server-side recency filtering instead of embedding dates in free text.
+        queries: list[dict[str, Any]] = [
+            {
+                "query": f"upcoming festivals, holidays, or public events in {city}",
+                "topic": "news",
+                "days": 14,
+            },
+            {
+                "query": f"major sporting event, tournament, or final near {city}",
+                "topic": "news",
+                "days": 14,
+            },
+            {
+                "query": (
+                    f"supply chain disruption, shortage, or strike affecting {product_category}"
+                    if product_category
+                    else "supply chain disruption, shortage, or strike"
+                ),
+                "topic": "news",
+                "days": 7,
+            },
         ]
         seen_titles: set[str] = set()
         items: list[NewsContextItem] = []
         raw: list[dict[str, str]] = []
 
-        for query in queries:
+        for q in queries:
             try:
                 result = client.search(
-                    query=query,
+                    query=q["query"],
+                    topic=q["topic"],
+                    days=q["days"],
                     search_depth="basic",
                     max_results=4,
                     include_raw_content=False,
@@ -434,11 +498,30 @@ class ForecastService:
                     # sometimes getting truncated out before reaching the LLM.
                     raw.append({"title": title, "content": content[:800]})
             except Exception:
-                logger.warning("Tavily search failed for query: %s", query, exc_info=True)
+                logger.warning("Tavily search failed for query: %s", q["query"], exc_info=True)
 
         final_items = items if items else None
-        _tavily_cache[cache_key] = (time.time(), final_items, raw)
-        return final_items, raw
+        with _tavily_cache_lock:
+            _tavily_cache[cache_key] = (time.time(), final_items, raw)
+            # Simple eviction: drop oldest entries when cache grows too large.
+            if len(_tavily_cache) > _TAVILY_CACHE_MAX_ENTRIES:
+                # Find the oldest key and remove it.
+                oldest_key = min(_tavily_cache.items(), key=lambda kv: kv[1][0])[0]
+                _tavily_cache.pop(oldest_key, None)
+
+        # Return freshly-created NewsContextItem objects (so callers can
+        # safely mutate relevance_score without touching the cache).
+        if final_items is None:
+            return None, raw
+        return [
+            NewsContextItem(
+                title=i.title,
+                url=i.url,
+                published_date=i.published_date,
+                relevance_score=i.relevance_score,
+            )
+            for i in final_items
+        ], raw
 
     # ======================================================================
     # NEW: relevance filtering
@@ -457,6 +540,11 @@ class ForecastService:
         if not items:
             return items
         if not relevant_titles:
+            # No titles marked relevant — treat as a soft match and give
+            # all items a passing relevance so the downstream filter does
+            # not discard everything.
+            for item in items:
+                item.relevance_score = max(item.relevance_score or 0.0, 0.85)
             return items
 
         filtered = []
@@ -467,6 +555,10 @@ class ForecastService:
 
         if filtered:
             return filtered
+        # If the LLM returned titles but none matched literally, assume it
+        # paraphrased and promote all items to a conservative passing score.
+        for item in items:
+            item.relevance_score = max(item.relevance_score or 0.0, 0.85)
         return items
 
     @staticmethod
@@ -487,12 +579,38 @@ class ForecastService:
                     is_relevant = True
                     break
             if is_relevant:
-                item.relevance_score = 0.7
+                item.relevance_score = 0.85
                 filtered.append(item)
 
         if filtered:
             return filtered
+
+        # No keywords matched — be conservative and give items a passing
+        # score instead of letting the later confidence filter drop them.
+        for item in items:
+            item.relevance_score = max(item.relevance_score or 0.0, 0.85)
         return items
+
+    @staticmethod
+    def _filter_news_context_items(
+        items: list[NewsContextItem] | None,
+    ) -> list[NewsContextItem] | None:
+        """Keep only high-confidence news_context items and cap the output size."""
+        if not items:
+            return items
+
+        filtered = [
+            item for item in items
+            if (item.relevance_score or 0.0) > NEWS_CONTEXT_CONFIDENCE_THRESHOLD
+        ]
+        if not filtered:
+            return []
+
+        return sorted(
+            filtered,
+            key=lambda item: item.relevance_score or 0.0,
+            reverse=True,
+        )[:NEWS_CONTEXT_MAX_RESULTS]
 
     # ======================================================================
     # LLM news analysis
@@ -521,23 +639,50 @@ class ForecastService:
             "Analyze how these news events might affect product demand at this store."
         )
 
-        raw = llm_client.structured_json(
-            system_prompt=NEWS_ANALYSIS_SYSTEM_PROMPT,
-            user_prompt=user_prompt,
-        )
+        try:
+            raw = llm_client.structured_json(
+                system_prompt=NEWS_ANALYSIS_SYSTEM_PROMPT,
+                user_prompt=user_prompt,
+            )
+        except Exception:
+            logger.warning("LLM structured_json failed", exc_info=True)
+            return None, set()
         if raw is None:
             return None, set()
 
         relevant_titles = set(raw.get("relevant_titles") or [])
 
         try:
+            # Defensive parsing + clamping to avoid LLM hallucination
+            sentiment_score = float(raw.get("sentiment_score", 0.0))
+            demand_adj = float(raw.get("demand_adjustment", 1.0))
+            conf_adj = float(raw.get("confidence_adjustment", 0.0))
+            affected_cats = raw.get("affected_categories") or []
+            explanation = raw.get("explanation") or ""
+            action_window = raw.get("action_window_days")
+
+            # Clamp numeric outputs to safe ranges.
+            demand_adj = float(np.clip(demand_adj, 0.7, 1.5))
+            conf_adj = float(np.clip(conf_adj, 0.0, 0.3))
+
+            # Validate action_window_days
+            if action_window is None:
+                action_window_days = None
+            else:
+                try:
+                    action_window_days = int(action_window)
+                    if action_window_days < 0:
+                        action_window_days = 0
+                except (TypeError, ValueError):
+                    action_window_days = None
+
             analysis = NewsAnalysisResult(
-                sentiment_score=float(raw.get("sentiment_score", 0.0)),
-                demand_adjustment=float(raw.get("demand_adjustment", 1.0)),
-                confidence_adjustment=float(raw.get("confidence_adjustment", 0.0)),
-                affected_categories=raw.get("affected_categories") or [],
-                explanation=raw.get("explanation") or "",
-                action_window_days=raw.get("action_window_days"),
+                sentiment_score=sentiment_score,
+                demand_adjustment=demand_adj,
+                confidence_adjustment=conf_adj,
+                affected_categories=affected_cats,
+                explanation=explanation,
+                action_window_days=action_window_days,
             )
         except (ValueError, TypeError) as exc:
             logger.warning("Failed to parse LLM output: %s — raw: %s", exc, raw)

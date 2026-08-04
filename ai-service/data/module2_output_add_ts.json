@@ -1,0 +1,4404 @@
+{
+  "forecasts": [
+    {
+      "product_id": "prod-001",
+      "product_name": "Apple iPhone 15 128GB Black",
+      "category": "Smartphone",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:57:26.956144",
+      "computed_at": "2026-08-04T02:57:33.801865",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 4.57,
+          "lower_bound": 3.88,
+          "upper_bound": 5.25
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 4.64,
+          "lower_bound": 3.94,
+          "upper_bound": 5.33
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 4.29,
+          "lower_bound": 3.64,
+          "upper_bound": 4.93
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 4.2,
+          "lower_bound": 3.57,
+          "upper_bound": 4.83
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 4.35,
+          "lower_bound": 3.7,
+          "upper_bound": 5.0
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 4.34,
+          "lower_bound": 3.69,
+          "upper_bound": 4.99
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 4.67,
+          "lower_bound": 3.97,
+          "upper_bound": 5.38
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 4.38,
+          "lower_bound": 3.72,
+          "upper_bound": 5.03
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 4.36,
+          "lower_bound": 3.71,
+          "upper_bound": 5.02
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 3.99,
+          "lower_bound": 3.39,
+          "upper_bound": 4.58
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 4.4,
+          "lower_bound": 3.74,
+          "upper_bound": 5.06
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 4.7,
+          "lower_bound": 4.0,
+          "upper_bound": 5.41
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 4.29,
+          "lower_bound": 3.64,
+          "upper_bound": 4.93
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 4.29,
+          "lower_bound": 3.65,
+          "upper_bound": 4.94
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 4.37,
+          "lower_bound": 3.72,
+          "upper_bound": 5.03
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 4.01,
+          "lower_bound": 3.4,
+          "upper_bound": 4.61
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 4.49,
+          "lower_bound": 3.82,
+          "upper_bound": 5.16
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 4.48,
+          "lower_bound": 3.81,
+          "upper_bound": 5.15
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 4.56,
+          "lower_bound": 3.88,
+          "upper_bound": 5.25
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 4.37,
+          "lower_bound": 3.71,
+          "upper_bound": 5.02
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 4.14,
+          "lower_bound": 3.52,
+          "upper_bound": 4.76
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 4.63,
+          "lower_bound": 3.93,
+          "upper_bound": 5.32
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 4.39,
+          "lower_bound": 3.73,
+          "upper_bound": 5.05
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 4.78,
+          "lower_bound": 4.06,
+          "upper_bound": 5.49
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 4.2,
+          "lower_bound": 3.57,
+          "upper_bound": 4.83
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 4.39,
+          "lower_bound": 3.73,
+          "upper_bound": 5.05
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 3.93,
+          "lower_bound": 3.34,
+          "upper_bound": 4.52
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 4.17,
+          "lower_bound": 3.54,
+          "upper_bound": 4.79
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 4.59,
+          "lower_bound": 3.9,
+          "upper_bound": 5.28
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 4.43,
+          "lower_bound": 3.76,
+          "upper_bound": 5.09
+        }
+      ]
+    },
+    {
+      "product_id": "prod-001",
+      "product_name": "Apple iPhone 15 128GB Black",
+      "category": "Smartphone",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:57:33.801984",
+      "computed_at": "2026-08-04T02:57:37.762375",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 3.87,
+          "lower_bound": 3.29,
+          "upper_bound": 4.45
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 3.72,
+          "lower_bound": 3.16,
+          "upper_bound": 4.28
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 3.52,
+          "lower_bound": 2.99,
+          "upper_bound": 4.05
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 3.54,
+          "lower_bound": 3.01,
+          "upper_bound": 4.07
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 3.96,
+          "lower_bound": 3.37,
+          "upper_bound": 4.55
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 4.07,
+          "lower_bound": 3.46,
+          "upper_bound": 4.68
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 3.8,
+          "lower_bound": 3.23,
+          "upper_bound": 4.38
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 3.99,
+          "lower_bound": 3.39,
+          "upper_bound": 4.59
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 3.79,
+          "lower_bound": 3.22,
+          "upper_bound": 4.36
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 3.79,
+          "lower_bound": 3.22,
+          "upper_bound": 4.36
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 3.94,
+          "lower_bound": 3.35,
+          "upper_bound": 4.53
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 3.69,
+          "lower_bound": 3.14,
+          "upper_bound": 4.25
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 3.98,
+          "lower_bound": 3.38,
+          "upper_bound": 4.57
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 3.64,
+          "lower_bound": 3.09,
+          "upper_bound": 4.18
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 4.11,
+          "lower_bound": 3.49,
+          "upper_bound": 4.72
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 3.47,
+          "lower_bound": 2.95,
+          "upper_bound": 4.0
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 3.38,
+          "lower_bound": 2.88,
+          "upper_bound": 3.89
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 3.65,
+          "lower_bound": 3.1,
+          "upper_bound": 4.2
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 3.96,
+          "lower_bound": 3.37,
+          "upper_bound": 4.56
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 3.67,
+          "lower_bound": 3.12,
+          "upper_bound": 4.23
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 3.82,
+          "lower_bound": 3.25,
+          "upper_bound": 4.39
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 3.74,
+          "lower_bound": 3.18,
+          "upper_bound": 4.3
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 3.73,
+          "lower_bound": 3.17,
+          "upper_bound": 4.29
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 3.58,
+          "lower_bound": 3.04,
+          "upper_bound": 4.12
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 3.74,
+          "lower_bound": 3.18,
+          "upper_bound": 4.3
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 3.9,
+          "lower_bound": 3.32,
+          "upper_bound": 4.49
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 3.89,
+          "lower_bound": 3.31,
+          "upper_bound": 4.47
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 3.54,
+          "lower_bound": 3.01,
+          "upper_bound": 4.07
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 3.87,
+          "lower_bound": 3.29,
+          "upper_bound": 4.45
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 3.52,
+          "lower_bound": 2.99,
+          "upper_bound": 4.05
+        }
+      ]
+    },
+    {
+      "product_id": "prod-002",
+      "product_name": "Apple iPhone 15 256GB Blue",
+      "category": "Smartphone",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:57:37.762525",
+      "computed_at": "2026-08-04T02:57:39.061097",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 1.04,
+          "lower_bound": 0.89,
+          "upper_bound": 1.2
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.98,
+          "lower_bound": 0.83,
+          "upper_bound": 1.13
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.94,
+          "lower_bound": 0.8,
+          "upper_bound": 1.08
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.94,
+          "lower_bound": 0.8,
+          "upper_bound": 1.09
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.88,
+          "lower_bound": 0.75,
+          "upper_bound": 1.02
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 1.05,
+          "lower_bound": 0.9,
+          "upper_bound": 1.21
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 1.08,
+          "lower_bound": 0.92,
+          "upper_bound": 1.24
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.99,
+          "lower_bound": 0.84,
+          "upper_bound": 1.14
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.97,
+          "lower_bound": 0.82,
+          "upper_bound": 1.12
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 1.02,
+          "lower_bound": 0.86,
+          "upper_bound": 1.17
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.93,
+          "lower_bound": 0.79,
+          "upper_bound": 1.07
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.96,
+          "lower_bound": 0.82,
+          "upper_bound": 1.11
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 1.04,
+          "lower_bound": 0.88,
+          "upper_bound": 1.19
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.95,
+          "lower_bound": 0.81,
+          "upper_bound": 1.1
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 1.04,
+          "lower_bound": 0.88,
+          "upper_bound": 1.19
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 1.01,
+          "lower_bound": 0.86,
+          "upper_bound": 1.16
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 1.04,
+          "lower_bound": 0.88,
+          "upper_bound": 1.2
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.85,
+          "lower_bound": 0.72,
+          "upper_bound": 0.98
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.92,
+          "lower_bound": 0.78,
+          "upper_bound": 1.06
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.97,
+          "lower_bound": 0.82,
+          "upper_bound": 1.11
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.96,
+          "lower_bound": 0.82,
+          "upper_bound": 1.1
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 1.02,
+          "lower_bound": 0.86,
+          "upper_bound": 1.17
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.96,
+          "lower_bound": 0.81,
+          "upper_bound": 1.1
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.96,
+          "lower_bound": 0.81,
+          "upper_bound": 1.1
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.97,
+          "lower_bound": 0.83,
+          "upper_bound": 1.12
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 1.03,
+          "lower_bound": 0.88,
+          "upper_bound": 1.19
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 1.01,
+          "lower_bound": 0.86,
+          "upper_bound": 1.16
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 1.01,
+          "lower_bound": 0.86,
+          "upper_bound": 1.16
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.92,
+          "lower_bound": 0.78,
+          "upper_bound": 1.06
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 1.02,
+          "lower_bound": 0.87,
+          "upper_bound": 1.18
+        }
+      ]
+    },
+    {
+      "product_id": "prod-002",
+      "product_name": "Apple iPhone 15 256GB Blue",
+      "category": "Smartphone",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:57:39.061289",
+      "computed_at": "2026-08-04T02:57:40.395572",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.67
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.62,
+          "lower_bound": 0.53,
+          "upper_bound": 0.72
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.67,
+          "lower_bound": 0.57,
+          "upper_bound": 0.77
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.71
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.7
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.64,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.62,
+          "lower_bound": 0.53,
+          "upper_bound": 0.72
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.7
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.63,
+          "lower_bound": 0.53,
+          "upper_bound": 0.72
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.65,
+          "lower_bound": 0.55,
+          "upper_bound": 0.75
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.68
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.63,
+          "lower_bound": 0.53,
+          "upper_bound": 0.72
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.65,
+          "lower_bound": 0.55,
+          "upper_bound": 0.74
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.7
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.65,
+          "lower_bound": 0.55,
+          "upper_bound": 0.75
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.67
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.67,
+          "lower_bound": 0.57,
+          "upper_bound": 0.77
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.64,
+          "lower_bound": 0.55,
+          "upper_bound": 0.74
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.7
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.69,
+          "lower_bound": 0.58,
+          "upper_bound": 0.79
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.64,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.63,
+          "lower_bound": 0.54,
+          "upper_bound": 0.72
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.64,
+          "lower_bound": 0.54,
+          "upper_bound": 0.74
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.63,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.71
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.7
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.68,
+          "lower_bound": 0.58,
+          "upper_bound": 0.79
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.6,
+          "lower_bound": 0.51,
+          "upper_bound": 0.69
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.66,
+          "lower_bound": 0.56,
+          "upper_bound": 0.76
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.64,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        }
+      ]
+    },
+    {
+      "product_id": "prod-003",
+      "product_name": "Apple AirPods Pro (2nd Gen)",
+      "category": "Audio",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:57:40.395745",
+      "computed_at": "2026-08-04T02:57:41.676827",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 3.8,
+          "lower_bound": 3.23,
+          "upper_bound": 4.36
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 3.39,
+          "lower_bound": 2.88,
+          "upper_bound": 3.9
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 3.73,
+          "lower_bound": 3.17,
+          "upper_bound": 4.29
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 3.66,
+          "lower_bound": 3.11,
+          "upper_bound": 4.21
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 3.8,
+          "lower_bound": 3.23,
+          "upper_bound": 4.37
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 3.37,
+          "lower_bound": 2.86,
+          "upper_bound": 3.87
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 3.45,
+          "lower_bound": 2.93,
+          "upper_bound": 3.96
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 3.57,
+          "lower_bound": 3.03,
+          "upper_bound": 4.1
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 3.44,
+          "lower_bound": 2.92,
+          "upper_bound": 3.96
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 4.03,
+          "lower_bound": 3.43,
+          "upper_bound": 4.64
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 3.37,
+          "lower_bound": 2.86,
+          "upper_bound": 3.87
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 3.49,
+          "lower_bound": 2.97,
+          "upper_bound": 4.02
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 3.76,
+          "lower_bound": 3.19,
+          "upper_bound": 4.32
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 3.42,
+          "lower_bound": 2.91,
+          "upper_bound": 3.94
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 4.17,
+          "lower_bound": 3.55,
+          "upper_bound": 4.8
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 3.39,
+          "lower_bound": 2.88,
+          "upper_bound": 3.9
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 3.7,
+          "lower_bound": 3.14,
+          "upper_bound": 4.25
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 3.59,
+          "lower_bound": 3.05,
+          "upper_bound": 4.13
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 3.66,
+          "lower_bound": 3.11,
+          "upper_bound": 4.21
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 3.35,
+          "lower_bound": 2.84,
+          "upper_bound": 3.85
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 3.53,
+          "lower_bound": 3.0,
+          "upper_bound": 4.06
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 3.64,
+          "lower_bound": 3.09,
+          "upper_bound": 4.18
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 3.66,
+          "lower_bound": 3.11,
+          "upper_bound": 4.21
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 3.69,
+          "lower_bound": 3.14,
+          "upper_bound": 4.25
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 3.45,
+          "lower_bound": 2.93,
+          "upper_bound": 3.97
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 3.61,
+          "lower_bound": 3.07,
+          "upper_bound": 4.15
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 3.6,
+          "lower_bound": 3.06,
+          "upper_bound": 4.14
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 3.31,
+          "lower_bound": 2.81,
+          "upper_bound": 3.8
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 3.59,
+          "lower_bound": 3.05,
+          "upper_bound": 4.13
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 3.53,
+          "lower_bound": 3.0,
+          "upper_bound": 4.05
+        }
+      ]
+    },
+    {
+      "product_id": "prod-003",
+      "product_name": "Apple AirPods Pro (2nd Gen)",
+      "category": "Audio",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:57:41.677042",
+      "computed_at": "2026-08-04T02:57:43.106880",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 2.52,
+          "lower_bound": 2.14,
+          "upper_bound": 2.9
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 2.47,
+          "lower_bound": 2.1,
+          "upper_bound": 2.84
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 2.39,
+          "lower_bound": 2.03,
+          "upper_bound": 2.75
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 2.61,
+          "lower_bound": 2.22,
+          "upper_bound": 3.0
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 2.68,
+          "lower_bound": 2.28,
+          "upper_bound": 3.08
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 2.58,
+          "lower_bound": 2.19,
+          "upper_bound": 2.97
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 2.59,
+          "lower_bound": 2.2,
+          "upper_bound": 2.98
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 2.45,
+          "lower_bound": 2.08,
+          "upper_bound": 2.81
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 2.51,
+          "lower_bound": 2.14,
+          "upper_bound": 2.89
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 2.49,
+          "lower_bound": 2.12,
+          "upper_bound": 2.87
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 2.61,
+          "lower_bound": 2.22,
+          "upper_bound": 3.0
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 2.43,
+          "lower_bound": 2.07,
+          "upper_bound": 2.8
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 2.49,
+          "lower_bound": 2.11,
+          "upper_bound": 2.86
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 2.57,
+          "lower_bound": 2.18,
+          "upper_bound": 2.95
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 2.62,
+          "lower_bound": 2.23,
+          "upper_bound": 3.01
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 2.33,
+          "lower_bound": 1.98,
+          "upper_bound": 2.68
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 2.3,
+          "lower_bound": 1.95,
+          "upper_bound": 2.64
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 2.35,
+          "lower_bound": 2.0,
+          "upper_bound": 2.7
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 2.67,
+          "lower_bound": 2.27,
+          "upper_bound": 3.07
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 2.62,
+          "lower_bound": 2.22,
+          "upper_bound": 3.01
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 2.48,
+          "lower_bound": 2.11,
+          "upper_bound": 2.85
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 2.66,
+          "lower_bound": 2.26,
+          "upper_bound": 3.05
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 2.53,
+          "lower_bound": 2.15,
+          "upper_bound": 2.9
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 2.53,
+          "lower_bound": 2.15,
+          "upper_bound": 2.91
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 2.3,
+          "lower_bound": 1.95,
+          "upper_bound": 2.64
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 2.66,
+          "lower_bound": 2.26,
+          "upper_bound": 3.06
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 2.49,
+          "lower_bound": 2.12,
+          "upper_bound": 2.86
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 2.55,
+          "lower_bound": 2.16,
+          "upper_bound": 2.93
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 2.6,
+          "lower_bound": 2.21,
+          "upper_bound": 2.99
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 2.52,
+          "lower_bound": 2.14,
+          "upper_bound": 2.89
+        }
+      ]
+    },
+    {
+      "product_id": "prod-004",
+      "product_name": "Apple Watch Series 9 GPS",
+      "category": "Wearable",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:57:43.107164",
+      "computed_at": "2026-08-04T02:57:44.553242",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.36,
+          "lower_bound": 0.31,
+          "upper_bound": 0.41
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.32,
+          "lower_bound": 0.27,
+          "upper_bound": 0.36
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.36,
+          "lower_bound": 0.31,
+          "upper_bound": 0.41
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.35,
+          "lower_bound": 0.3,
+          "upper_bound": 0.4
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.33,
+          "lower_bound": 0.28,
+          "upper_bound": 0.38
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.36,
+          "lower_bound": 0.31,
+          "upper_bound": 0.42
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.35,
+          "lower_bound": 0.29,
+          "upper_bound": 0.4
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.33,
+          "lower_bound": 0.28,
+          "upper_bound": 0.38
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.32,
+          "lower_bound": 0.28,
+          "upper_bound": 0.37
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.34,
+          "lower_bound": 0.29,
+          "upper_bound": 0.39
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.33,
+          "lower_bound": 0.28,
+          "upper_bound": 0.38
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.32,
+          "lower_bound": 0.27,
+          "upper_bound": 0.37
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.34,
+          "lower_bound": 0.29,
+          "upper_bound": 0.39
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.33,
+          "lower_bound": 0.28,
+          "upper_bound": 0.38
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.33,
+          "lower_bound": 0.28,
+          "upper_bound": 0.38
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.33,
+          "lower_bound": 0.28,
+          "upper_bound": 0.38
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.33,
+          "lower_bound": 0.28,
+          "upper_bound": 0.38
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.33,
+          "lower_bound": 0.28,
+          "upper_bound": 0.38
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.32,
+          "lower_bound": 0.27,
+          "upper_bound": 0.36
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.35,
+          "lower_bound": 0.3,
+          "upper_bound": 0.41
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.33,
+          "lower_bound": 0.28,
+          "upper_bound": 0.38
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.35,
+          "lower_bound": 0.29,
+          "upper_bound": 0.4
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.32,
+          "lower_bound": 0.28,
+          "upper_bound": 0.37
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.35,
+          "lower_bound": 0.29,
+          "upper_bound": 0.4
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.35,
+          "lower_bound": 0.29,
+          "upper_bound": 0.4
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.34,
+          "lower_bound": 0.29,
+          "upper_bound": 0.39
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.36,
+          "lower_bound": 0.3,
+          "upper_bound": 0.41
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.35,
+          "lower_bound": 0.29,
+          "upper_bound": 0.4
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.31,
+          "lower_bound": 0.26,
+          "upper_bound": 0.36
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.31,
+          "lower_bound": 0.26,
+          "upper_bound": 0.35
+        }
+      ]
+    },
+    {
+      "product_id": "prod-004",
+      "product_name": "Apple Watch Series 9 GPS",
+      "category": "Wearable",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:57:44.553422",
+      "computed_at": "2026-08-04T02:57:45.972871",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.51,
+          "lower_bound": 0.43,
+          "upper_bound": 0.58
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.5,
+          "lower_bound": 0.42,
+          "upper_bound": 0.57
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.42,
+          "lower_bound": 0.36,
+          "upper_bound": 0.48
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.51,
+          "lower_bound": 0.43,
+          "upper_bound": 0.58
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.52
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.48,
+          "lower_bound": 0.41,
+          "upper_bound": 0.55
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.47,
+          "lower_bound": 0.4,
+          "upper_bound": 0.54
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.5,
+          "lower_bound": 0.43,
+          "upper_bound": 0.58
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.47,
+          "lower_bound": 0.4,
+          "upper_bound": 0.55
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.47,
+          "lower_bound": 0.4,
+          "upper_bound": 0.54
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.5,
+          "lower_bound": 0.42,
+          "upper_bound": 0.57
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.48,
+          "lower_bound": 0.41,
+          "upper_bound": 0.55
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.5,
+          "lower_bound": 0.42,
+          "upper_bound": 0.57
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.52,
+          "lower_bound": 0.44,
+          "upper_bound": 0.6
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.49,
+          "lower_bound": 0.42,
+          "upper_bound": 0.56
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.49,
+          "lower_bound": 0.41,
+          "upper_bound": 0.56
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.48,
+          "lower_bound": 0.41,
+          "upper_bound": 0.55
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.39,
+          "upper_bound": 0.52
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.51,
+          "lower_bound": 0.44,
+          "upper_bound": 0.59
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.47,
+          "lower_bound": 0.4,
+          "upper_bound": 0.54
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.5,
+          "lower_bound": 0.43,
+          "upper_bound": 0.58
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.38,
+          "upper_bound": 0.52
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.48,
+          "lower_bound": 0.41,
+          "upper_bound": 0.55
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.5,
+          "lower_bound": 0.43,
+          "upper_bound": 0.58
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.47,
+          "lower_bound": 0.4,
+          "upper_bound": 0.54
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.5,
+          "lower_bound": 0.43,
+          "upper_bound": 0.58
+        }
+      ]
+    },
+    {
+      "product_id": "prod-005",
+      "product_name": "Apple iPad Air M2",
+      "category": "Tablet",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:57:45.973014",
+      "computed_at": "2026-08-04T02:57:47.434388",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.15,
+          "lower_bound": 0.13,
+          "upper_bound": 0.18
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.13,
+          "upper_bound": 0.18
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.13,
+          "upper_bound": 0.18
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.15,
+          "lower_bound": 0.13,
+          "upper_bound": 0.18
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.16,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.14,
+          "lower_bound": 0.12,
+          "upper_bound": 0.16
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.19,
+          "lower_bound": 0.16,
+          "upper_bound": 0.22
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.18
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.18
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.18
+        }
+      ]
+    },
+    {
+      "product_id": "prod-005",
+      "product_name": "Apple iPad Air M2",
+      "category": "Tablet",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:57:47.434472",
+      "computed_at": "2026-08-04T02:57:48.823637",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.52
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.38,
+          "upper_bound": 0.52
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.44,
+          "lower_bound": 0.37,
+          "upper_bound": 0.5
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.38,
+          "upper_bound": 0.51
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.44,
+          "lower_bound": 0.38,
+          "upper_bound": 0.51
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.37,
+          "upper_bound": 0.5
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.47,
+          "lower_bound": 0.4,
+          "upper_bound": 0.54
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.38,
+          "upper_bound": 0.51
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.36,
+          "upper_bound": 0.49
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.36,
+          "upper_bound": 0.49
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.38,
+          "upper_bound": 0.51
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.36,
+          "upper_bound": 0.49
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.5,
+          "lower_bound": 0.42,
+          "upper_bound": 0.57
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.49,
+          "lower_bound": 0.41,
+          "upper_bound": 0.56
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.38,
+          "upper_bound": 0.51
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.37,
+          "upper_bound": 0.5
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.48,
+          "lower_bound": 0.41,
+          "upper_bound": 0.55
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.42,
+          "lower_bound": 0.36,
+          "upper_bound": 0.48
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.51,
+          "lower_bound": 0.43,
+          "upper_bound": 0.59
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.39,
+          "upper_bound": 0.52
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.48,
+          "lower_bound": 0.41,
+          "upper_bound": 0.55
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.48,
+          "lower_bound": 0.41,
+          "upper_bound": 0.55
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.49,
+          "lower_bound": 0.42,
+          "upper_bound": 0.56
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.38,
+          "upper_bound": 0.52
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.38,
+          "upper_bound": 0.52
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.47,
+          "lower_bound": 0.4,
+          "upper_bound": 0.54
+        }
+      ]
+    },
+    {
+      "product_id": "prod-006",
+      "product_name": "MacBook Air M3 13-inch",
+      "category": "Laptop",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:57:48.823727",
+      "computed_at": "2026-08-04T02:57:50.111681",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.19,
+          "lower_bound": 0.16,
+          "upper_bound": 0.22
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.16,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.16,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.15,
+          "lower_bound": 0.13,
+          "upper_bound": 0.17
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.19,
+          "lower_bound": 0.16,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.16,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.21
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.15,
+          "lower_bound": 0.13,
+          "upper_bound": 0.18
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.15,
+          "lower_bound": 0.13,
+          "upper_bound": 0.18
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.16,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.18,
+          "lower_bound": 0.15,
+          "upper_bound": 0.2
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.19,
+          "lower_bound": 0.16,
+          "upper_bound": 0.22
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.17,
+          "lower_bound": 0.14,
+          "upper_bound": 0.19
+        }
+      ]
+    },
+    {
+      "product_id": "prod-006",
+      "product_name": "MacBook Air M3 13-inch",
+      "category": "Laptop",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:57:50.111756",
+      "computed_at": "2026-08-04T02:57:51.536497",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.06,
+          "lower_bound": 0.05,
+          "upper_bound": 0.07
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.08,
+          "lower_bound": 0.06,
+          "upper_bound": 0.09
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.06,
+          "lower_bound": 0.05,
+          "upper_bound": 0.07
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.09
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.08,
+          "lower_bound": 0.06,
+          "upper_bound": 0.09
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.09
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.09
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.09
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.06,
+          "lower_bound": 0.05,
+          "upper_bound": 0.07
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.07,
+          "lower_bound": 0.06,
+          "upper_bound": 0.08
+        }
+      ]
+    },
+    {
+      "product_id": "prod-007",
+      "product_name": "Logitech MX Master 3S Mouse",
+      "category": "Accessory",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:57:51.536576",
+      "computed_at": "2026-08-04T02:57:53.048154",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 1.59,
+          "lower_bound": 1.35,
+          "upper_bound": 1.83
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 1.59,
+          "lower_bound": 1.35,
+          "upper_bound": 1.83
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 1.6,
+          "lower_bound": 1.36,
+          "upper_bound": 1.84
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 1.57,
+          "lower_bound": 1.34,
+          "upper_bound": 1.81
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 1.64,
+          "lower_bound": 1.39,
+          "upper_bound": 1.88
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 1.41,
+          "lower_bound": 1.2,
+          "upper_bound": 1.62
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 1.52,
+          "lower_bound": 1.29,
+          "upper_bound": 1.75
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 1.73,
+          "lower_bound": 1.47,
+          "upper_bound": 1.99
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 1.62,
+          "lower_bound": 1.37,
+          "upper_bound": 1.86
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 1.65,
+          "lower_bound": 1.4,
+          "upper_bound": 1.9
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 1.73,
+          "lower_bound": 1.47,
+          "upper_bound": 1.99
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 1.56,
+          "lower_bound": 1.33,
+          "upper_bound": 1.8
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 1.78,
+          "lower_bound": 1.51,
+          "upper_bound": 2.04
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 1.72,
+          "lower_bound": 1.47,
+          "upper_bound": 1.98
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 1.57,
+          "lower_bound": 1.34,
+          "upper_bound": 1.81
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 1.44,
+          "lower_bound": 1.23,
+          "upper_bound": 1.66
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 1.54,
+          "lower_bound": 1.31,
+          "upper_bound": 1.77
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 1.5,
+          "lower_bound": 1.27,
+          "upper_bound": 1.72
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 1.57,
+          "lower_bound": 1.34,
+          "upper_bound": 1.81
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 1.6,
+          "lower_bound": 1.36,
+          "upper_bound": 1.84
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 1.57,
+          "lower_bound": 1.34,
+          "upper_bound": 1.81
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 1.62,
+          "lower_bound": 1.38,
+          "upper_bound": 1.86
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 1.64,
+          "lower_bound": 1.39,
+          "upper_bound": 1.88
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 1.65,
+          "lower_bound": 1.4,
+          "upper_bound": 1.9
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 1.62,
+          "lower_bound": 1.38,
+          "upper_bound": 1.87
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 1.69,
+          "lower_bound": 1.44,
+          "upper_bound": 1.95
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 1.63,
+          "lower_bound": 1.39,
+          "upper_bound": 1.88
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 1.59,
+          "lower_bound": 1.35,
+          "upper_bound": 1.83
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 1.61,
+          "lower_bound": 1.37,
+          "upper_bound": 1.85
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 1.62,
+          "lower_bound": 1.37,
+          "upper_bound": 1.86
+        }
+      ]
+    },
+    {
+      "product_id": "prod-007",
+      "product_name": "Logitech MX Master 3S Mouse",
+      "category": "Accessory",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:57:53.048239",
+      "computed_at": "2026-08-04T02:57:54.453937",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.9,
+          "lower_bound": 0.76,
+          "upper_bound": 1.03
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.82,
+          "lower_bound": 0.69,
+          "upper_bound": 0.94
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.91,
+          "lower_bound": 0.78,
+          "upper_bound": 1.05
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.72,
+          "lower_bound": 0.61,
+          "upper_bound": 0.83
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.9,
+          "lower_bound": 0.76,
+          "upper_bound": 1.03
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.9,
+          "lower_bound": 0.77,
+          "upper_bound": 1.04
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.84,
+          "lower_bound": 0.72,
+          "upper_bound": 0.97
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.84,
+          "lower_bound": 0.72,
+          "upper_bound": 0.97
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.78,
+          "lower_bound": 0.66,
+          "upper_bound": 0.89
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.89,
+          "lower_bound": 0.76,
+          "upper_bound": 1.03
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.87,
+          "lower_bound": 0.74,
+          "upper_bound": 1.0
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.9,
+          "lower_bound": 0.76,
+          "upper_bound": 1.03
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.88,
+          "lower_bound": 0.75,
+          "upper_bound": 1.02
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.9,
+          "lower_bound": 0.76,
+          "upper_bound": 1.03
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.84,
+          "lower_bound": 0.72,
+          "upper_bound": 0.97
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.8,
+          "lower_bound": 0.68,
+          "upper_bound": 0.92
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.78,
+          "lower_bound": 0.67,
+          "upper_bound": 0.9
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.92,
+          "lower_bound": 0.78,
+          "upper_bound": 1.06
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.86,
+          "lower_bound": 0.73,
+          "upper_bound": 0.99
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.89,
+          "lower_bound": 0.76,
+          "upper_bound": 1.03
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.88,
+          "lower_bound": 0.75,
+          "upper_bound": 1.01
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.87,
+          "lower_bound": 0.74,
+          "upper_bound": 1.0
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.78,
+          "lower_bound": 0.66,
+          "upper_bound": 0.9
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.82,
+          "lower_bound": 0.7,
+          "upper_bound": 0.94
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.8,
+          "lower_bound": 0.68,
+          "upper_bound": 0.92
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.76,
+          "lower_bound": 0.65,
+          "upper_bound": 0.88
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.89,
+          "lower_bound": 0.76,
+          "upper_bound": 1.03
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.79,
+          "lower_bound": 0.67,
+          "upper_bound": 0.91
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.83,
+          "lower_bound": 0.7,
+          "upper_bound": 0.95
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.82,
+          "lower_bound": 0.7,
+          "upper_bound": 0.94
+        }
+      ]
+    },
+    {
+      "product_id": "prod-008",
+      "product_name": "Anker Nano II 65W Charger",
+      "category": "Accessory",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:57:54.454031",
+      "computed_at": "2026-08-04T02:57:55.852333",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 8.61,
+          "lower_bound": 7.32,
+          "upper_bound": 9.9
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 7.63,
+          "lower_bound": 6.49,
+          "upper_bound": 8.78
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 8.01,
+          "lower_bound": 6.81,
+          "upper_bound": 9.21
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 7.9,
+          "lower_bound": 6.72,
+          "upper_bound": 9.09
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 8.24,
+          "lower_bound": 7.0,
+          "upper_bound": 9.48
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 8.59,
+          "lower_bound": 7.3,
+          "upper_bound": 9.88
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 7.49,
+          "lower_bound": 6.37,
+          "upper_bound": 8.61
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 7.0,
+          "lower_bound": 5.95,
+          "upper_bound": 8.06
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 8.28,
+          "lower_bound": 7.04,
+          "upper_bound": 9.52
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 8.04,
+          "lower_bound": 6.83,
+          "upper_bound": 9.25
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 8.01,
+          "lower_bound": 6.81,
+          "upper_bound": 9.21
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 8.25,
+          "lower_bound": 7.01,
+          "upper_bound": 9.48
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 8.62,
+          "lower_bound": 7.32,
+          "upper_bound": 9.91
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 7.77,
+          "lower_bound": 6.6,
+          "upper_bound": 8.94
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 7.48,
+          "lower_bound": 6.36,
+          "upper_bound": 8.6
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 8.13,
+          "lower_bound": 6.91,
+          "upper_bound": 9.35
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 7.49,
+          "lower_bound": 6.36,
+          "upper_bound": 8.61
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 7.52,
+          "lower_bound": 6.39,
+          "upper_bound": 8.65
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 7.96,
+          "lower_bound": 6.76,
+          "upper_bound": 9.15
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 8.26,
+          "lower_bound": 7.02,
+          "upper_bound": 9.5
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 7.74,
+          "lower_bound": 6.58,
+          "upper_bound": 8.9
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 8.41,
+          "lower_bound": 7.15,
+          "upper_bound": 9.67
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 7.86,
+          "lower_bound": 6.68,
+          "upper_bound": 9.04
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 8.29,
+          "lower_bound": 7.05,
+          "upper_bound": 9.54
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 7.92,
+          "lower_bound": 6.73,
+          "upper_bound": 9.11
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 7.98,
+          "lower_bound": 6.78,
+          "upper_bound": 9.17
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 8.47,
+          "lower_bound": 7.2,
+          "upper_bound": 9.74
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 8.72,
+          "lower_bound": 7.42,
+          "upper_bound": 10.03
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 7.69,
+          "lower_bound": 6.54,
+          "upper_bound": 8.84
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 8.49,
+          "lower_bound": 7.22,
+          "upper_bound": 9.76
+        }
+      ]
+    },
+    {
+      "product_id": "prod-008",
+      "product_name": "Anker Nano II 65W Charger",
+      "category": "Accessory",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:57:55.852442",
+      "computed_at": "2026-08-04T02:57:57.234593",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 2.47,
+          "lower_bound": 2.1,
+          "upper_bound": 2.84
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 2.76,
+          "lower_bound": 2.35,
+          "upper_bound": 3.17
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 3.03,
+          "lower_bound": 2.58,
+          "upper_bound": 3.48
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 2.83,
+          "lower_bound": 2.41,
+          "upper_bound": 3.26
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 2.74,
+          "lower_bound": 2.33,
+          "upper_bound": 3.15
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 3.06,
+          "lower_bound": 2.6,
+          "upper_bound": 3.51
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 2.92,
+          "lower_bound": 2.48,
+          "upper_bound": 3.36
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 2.83,
+          "lower_bound": 2.41,
+          "upper_bound": 3.26
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 3.02,
+          "lower_bound": 2.57,
+          "upper_bound": 3.47
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 2.9,
+          "lower_bound": 2.46,
+          "upper_bound": 3.33
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 2.86,
+          "lower_bound": 2.43,
+          "upper_bound": 3.29
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 2.72,
+          "lower_bound": 2.31,
+          "upper_bound": 3.13
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 2.95,
+          "lower_bound": 2.51,
+          "upper_bound": 3.39
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 2.82,
+          "lower_bound": 2.4,
+          "upper_bound": 3.24
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 2.56,
+          "lower_bound": 2.17,
+          "upper_bound": 2.94
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 3.05,
+          "lower_bound": 2.6,
+          "upper_bound": 3.51
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 3.15,
+          "lower_bound": 2.68,
+          "upper_bound": 3.62
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 2.61,
+          "lower_bound": 2.22,
+          "upper_bound": 3.0
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 2.73,
+          "lower_bound": 2.32,
+          "upper_bound": 3.14
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 2.93,
+          "lower_bound": 2.49,
+          "upper_bound": 3.37
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 2.89,
+          "lower_bound": 2.46,
+          "upper_bound": 3.33
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 2.9,
+          "lower_bound": 2.46,
+          "upper_bound": 3.33
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 2.93,
+          "lower_bound": 2.49,
+          "upper_bound": 3.36
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 3.01,
+          "lower_bound": 2.56,
+          "upper_bound": 3.46
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 2.86,
+          "lower_bound": 2.43,
+          "upper_bound": 3.28
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 2.99,
+          "lower_bound": 2.54,
+          "upper_bound": 3.44
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 2.54,
+          "lower_bound": 2.16,
+          "upper_bound": 2.93
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 2.66,
+          "lower_bound": 2.26,
+          "upper_bound": 3.06
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 2.66,
+          "lower_bound": 2.26,
+          "upper_bound": 3.05
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 3.05,
+          "lower_bound": 2.59,
+          "upper_bound": 3.5
+        }
+      ]
+    },
+    {
+      "product_id": "prod-009",
+      "product_name": "Samsung T7 Portable SSD 1TB",
+      "category": "Storage",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:57:57.234714",
+      "computed_at": "2026-08-04T02:57:58.598265",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.63,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.67
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.68
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.68
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.6,
+          "lower_bound": 0.51,
+          "upper_bound": 0.69
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.56,
+          "lower_bound": 0.47,
+          "upper_bound": 0.64
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.54,
+          "lower_bound": 0.46,
+          "upper_bound": 0.62
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.71
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.53,
+          "lower_bound": 0.45,
+          "upper_bound": 0.61
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.58,
+          "lower_bound": 0.5,
+          "upper_bound": 0.67
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.58,
+          "lower_bound": 0.49,
+          "upper_bound": 0.67
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.52,
+          "lower_bound": 0.44,
+          "upper_bound": 0.59
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.57,
+          "lower_bound": 0.48,
+          "upper_bound": 0.65
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.62,
+          "lower_bound": 0.53,
+          "upper_bound": 0.71
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.58,
+          "lower_bound": 0.49,
+          "upper_bound": 0.66
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.57,
+          "lower_bound": 0.48,
+          "upper_bound": 0.65
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.71
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.57,
+          "lower_bound": 0.49,
+          "upper_bound": 0.66
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.58,
+          "lower_bound": 0.49,
+          "upper_bound": 0.67
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.55,
+          "lower_bound": 0.46,
+          "upper_bound": 0.63
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.6,
+          "lower_bound": 0.51,
+          "upper_bound": 0.69
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.6,
+          "lower_bound": 0.51,
+          "upper_bound": 0.69
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.54,
+          "lower_bound": 0.46,
+          "upper_bound": 0.62
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.56,
+          "lower_bound": 0.48,
+          "upper_bound": 0.65
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.68
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.62,
+          "lower_bound": 0.53,
+          "upper_bound": 0.72
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.65,
+          "lower_bound": 0.55,
+          "upper_bound": 0.74
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.55,
+          "lower_bound": 0.47,
+          "upper_bound": 0.64
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.6,
+          "lower_bound": 0.51,
+          "upper_bound": 0.69
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.63,
+          "lower_bound": 0.53,
+          "upper_bound": 0.72
+        }
+      ]
+    },
+    {
+      "product_id": "prod-009",
+      "product_name": "Samsung T7 Portable SSD 1TB",
+      "category": "Storage",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:57:58.598382",
+      "computed_at": "2026-08-04T02:58:00.036415",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.82,
+          "lower_bound": 0.69,
+          "upper_bound": 0.94
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.82,
+          "lower_bound": 0.7,
+          "upper_bound": 0.94
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.9,
+          "lower_bound": 0.77,
+          "upper_bound": 1.04
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.92,
+          "lower_bound": 0.78,
+          "upper_bound": 1.05
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.84,
+          "lower_bound": 0.71,
+          "upper_bound": 0.96
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.88,
+          "lower_bound": 0.75,
+          "upper_bound": 1.01
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.85,
+          "lower_bound": 0.73,
+          "upper_bound": 0.98
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.8,
+          "lower_bound": 0.68,
+          "upper_bound": 0.92
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.87,
+          "lower_bound": 0.74,
+          "upper_bound": 1.0
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.87,
+          "lower_bound": 0.74,
+          "upper_bound": 1.0
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.89,
+          "lower_bound": 0.75,
+          "upper_bound": 1.02
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.82,
+          "lower_bound": 0.7,
+          "upper_bound": 0.95
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.89,
+          "lower_bound": 0.76,
+          "upper_bound": 1.02
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.82,
+          "lower_bound": 0.7,
+          "upper_bound": 0.95
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.88,
+          "lower_bound": 0.75,
+          "upper_bound": 1.01
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.86,
+          "lower_bound": 0.73,
+          "upper_bound": 0.99
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.74,
+          "lower_bound": 0.63,
+          "upper_bound": 0.85
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.91,
+          "lower_bound": 0.78,
+          "upper_bound": 1.05
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.84,
+          "lower_bound": 0.71,
+          "upper_bound": 0.97
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.84,
+          "lower_bound": 0.72,
+          "upper_bound": 0.97
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.85,
+          "lower_bound": 0.72,
+          "upper_bound": 0.98
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.86,
+          "lower_bound": 0.73,
+          "upper_bound": 0.98
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.87,
+          "lower_bound": 0.74,
+          "upper_bound": 1.0
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.87,
+          "lower_bound": 0.74,
+          "upper_bound": 1.0
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.83,
+          "lower_bound": 0.7,
+          "upper_bound": 0.95
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.89,
+          "lower_bound": 0.76,
+          "upper_bound": 1.02
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.84,
+          "lower_bound": 0.71,
+          "upper_bound": 0.96
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.85,
+          "lower_bound": 0.72,
+          "upper_bound": 0.98
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.86,
+          "lower_bound": 0.73,
+          "upper_bound": 0.98
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.85,
+          "lower_bound": 0.72,
+          "upper_bound": 0.98
+        }
+      ]
+    },
+    {
+      "product_id": "prod-010",
+      "product_name": "Keychron K8 Wireless Mechanical Keyboard",
+      "category": "Accessory",
+      "store_id": "store-001",
+      "store_name": "TechStore Hanoi",
+      "geolocate": "Hanoi, North",
+      "localtime": "2026-08-04T02:58:00.036512",
+      "computed_at": "2026-08-04T02:58:01.390748",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0068,
+      "news_context": [
+        {
+          "title": "Top 12 Must-See Festivals and Events in Vietnam for 2026",
+          "url": "https://www.traveloka.com/en-en/explore/activities/festivals-and-events-in-vietnam-ta/376428"
+        },
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Hanoi Events 2026: Monthly Festival & Culture Guide",
+          "url": "https://zigway.app/hanoi/events-in-2026"
+        },
+        {
+          "title": "Major Festivals in Vietnam 2026: Complete Event Calendar",
+          "url": "https://pickyourtrail.com/blog/vietnam-festival-calendar"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.62,
+          "lower_bound": 0.53,
+          "upper_bound": 0.72
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.58,
+          "lower_bound": 0.5,
+          "upper_bound": 0.67
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.65,
+          "lower_bound": 0.55,
+          "upper_bound": 0.75
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.68
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.67,
+          "lower_bound": 0.57,
+          "upper_bound": 0.77
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.58,
+          "lower_bound": 0.49,
+          "upper_bound": 0.67
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.64,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.65,
+          "lower_bound": 0.55,
+          "upper_bound": 0.74
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.62,
+          "lower_bound": 0.53,
+          "upper_bound": 0.72
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.69,
+          "lower_bound": 0.59,
+          "upper_bound": 0.8
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.68
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.62,
+          "lower_bound": 0.53,
+          "upper_bound": 0.71
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.59,
+          "lower_bound": 0.5,
+          "upper_bound": 0.68
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.64,
+          "lower_bound": 0.54,
+          "upper_bound": 0.74
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.69,
+          "lower_bound": 0.59,
+          "upper_bound": 0.79
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.64,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.63,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.66,
+          "lower_bound": 0.56,
+          "upper_bound": 0.76
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.71
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.62,
+          "lower_bound": 0.52,
+          "upper_bound": 0.71
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.65,
+          "lower_bound": 0.55,
+          "upper_bound": 0.75
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.6,
+          "lower_bound": 0.51,
+          "upper_bound": 0.7
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.57,
+          "lower_bound": 0.49,
+          "upper_bound": 0.66
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.64,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.68,
+          "lower_bound": 0.58,
+          "upper_bound": 0.78
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.62,
+          "lower_bound": 0.53,
+          "upper_bound": 0.71
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.56,
+          "lower_bound": 0.48,
+          "upper_bound": 0.65
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.61,
+          "lower_bound": 0.52,
+          "upper_bound": 0.7
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.63,
+          "lower_bound": 0.54,
+          "upper_bound": 0.73
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.63,
+          "lower_bound": 0.53,
+          "upper_bound": 0.72
+        }
+      ]
+    },
+    {
+      "product_id": "prod-010",
+      "product_name": "Keychron K8 Wireless Mechanical Keyboard",
+      "category": "Accessory",
+      "store_id": "store-002",
+      "store_name": "TechStore Ho Chi Minh",
+      "geolocate": "Minh, South",
+      "localtime": "2026-08-04T02:58:01.390881",
+      "computed_at": "2026-08-04T02:58:02.754421",
+      "model_used": "news_fallback",
+      "confidence_level": 0.85,
+      "news_sentiment_score": 0.0,
+      "news_adjustment_factor": 1.0077,
+      "news_context": [
+        {
+          "title": "Festivals & events | Vietnam Tourism",
+          "url": "https://vietnam.travel/event"
+        },
+        {
+          "title": "Vietnam Festivals 2026: Ultimate Calendar for Cultural Tours",
+          "url": "https://vietone.travel/vietnam-festivals-2026-calendar"
+        },
+        {
+          "title": "Events & Festivals Calendar",
+          "url": "https://www.visitdelaware.com/events"
+        },
+        {
+          "title": "The 2026 supply chain challenge: Global trade disruption",
+          "url": "https://tax.thomsonreuters.com/blog/2026s-supply-chain-challenge-confronting-complexity-and-disruption-in-global-trade-tri"
+        },
+        {
+          "title": "Supply Chain Disruption: Causes, Examples & 2026 Solutions",
+          "url": "https://www.freightfox.ai/blog/supply-chain-disruption"
+        }
+      ],
+      "forecast_points": [
+        {
+          "date": "2026-08-04",
+          "predicted_quantity": 0.41,
+          "lower_bound": 0.35,
+          "upper_bound": 0.47
+        },
+        {
+          "date": "2026-08-05",
+          "predicted_quantity": 0.39,
+          "lower_bound": 0.33,
+          "upper_bound": 0.45
+        },
+        {
+          "date": "2026-08-06",
+          "predicted_quantity": 0.45,
+          "lower_bound": 0.38,
+          "upper_bound": 0.52
+        },
+        {
+          "date": "2026-08-07",
+          "predicted_quantity": 0.42,
+          "lower_bound": 0.35,
+          "upper_bound": 0.48
+        },
+        {
+          "date": "2026-08-08",
+          "predicted_quantity": 0.41,
+          "lower_bound": 0.35,
+          "upper_bound": 0.47
+        },
+        {
+          "date": "2026-08-09",
+          "predicted_quantity": 0.42,
+          "lower_bound": 0.35,
+          "upper_bound": 0.48
+        },
+        {
+          "date": "2026-08-10",
+          "predicted_quantity": 0.42,
+          "lower_bound": 0.36,
+          "upper_bound": 0.48
+        },
+        {
+          "date": "2026-08-11",
+          "predicted_quantity": 0.39,
+          "lower_bound": 0.33,
+          "upper_bound": 0.45
+        },
+        {
+          "date": "2026-08-12",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.37,
+          "upper_bound": 0.5
+        },
+        {
+          "date": "2026-08-13",
+          "predicted_quantity": 0.41,
+          "lower_bound": 0.34,
+          "upper_bound": 0.47
+        },
+        {
+          "date": "2026-08-14",
+          "predicted_quantity": 0.4,
+          "lower_bound": 0.34,
+          "upper_bound": 0.46
+        },
+        {
+          "date": "2026-08-15",
+          "predicted_quantity": 0.42,
+          "lower_bound": 0.36,
+          "upper_bound": 0.49
+        },
+        {
+          "date": "2026-08-16",
+          "predicted_quantity": 0.38,
+          "lower_bound": 0.32,
+          "upper_bound": 0.44
+        },
+        {
+          "date": "2026-08-17",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.37,
+          "upper_bound": 0.5
+        },
+        {
+          "date": "2026-08-18",
+          "predicted_quantity": 0.37,
+          "lower_bound": 0.31,
+          "upper_bound": 0.42
+        },
+        {
+          "date": "2026-08-19",
+          "predicted_quantity": 0.4,
+          "lower_bound": 0.34,
+          "upper_bound": 0.47
+        },
+        {
+          "date": "2026-08-20",
+          "predicted_quantity": 0.44,
+          "lower_bound": 0.37,
+          "upper_bound": 0.5
+        },
+        {
+          "date": "2026-08-21",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-08-22",
+          "predicted_quantity": 0.41,
+          "lower_bound": 0.35,
+          "upper_bound": 0.47
+        },
+        {
+          "date": "2026-08-23",
+          "predicted_quantity": 0.44,
+          "lower_bound": 0.37,
+          "upper_bound": 0.51
+        },
+        {
+          "date": "2026-08-24",
+          "predicted_quantity": 0.38,
+          "lower_bound": 0.32,
+          "upper_bound": 0.43
+        },
+        {
+          "date": "2026-08-25",
+          "predicted_quantity": 0.39,
+          "lower_bound": 0.33,
+          "upper_bound": 0.45
+        },
+        {
+          "date": "2026-08-26",
+          "predicted_quantity": 0.42,
+          "lower_bound": 0.36,
+          "upper_bound": 0.48
+        },
+        {
+          "date": "2026-08-27",
+          "predicted_quantity": 0.46,
+          "lower_bound": 0.39,
+          "upper_bound": 0.53
+        },
+        {
+          "date": "2026-08-28",
+          "predicted_quantity": 0.41,
+          "lower_bound": 0.35,
+          "upper_bound": 0.47
+        },
+        {
+          "date": "2026-08-29",
+          "predicted_quantity": 0.39,
+          "lower_bound": 0.33,
+          "upper_bound": 0.44
+        },
+        {
+          "date": "2026-08-30",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.37,
+          "upper_bound": 0.49
+        },
+        {
+          "date": "2026-08-31",
+          "predicted_quantity": 0.41,
+          "lower_bound": 0.35,
+          "upper_bound": 0.47
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.37,
+          "upper_bound": 0.5
+        },
+        {
+          "date": "2026-09-02",
+          "predicted_quantity": 0.43,
+          "lower_bound": 0.36,
+          "upper_bound": 0.49
+        }
+      ]
+    }
+  ]
+}

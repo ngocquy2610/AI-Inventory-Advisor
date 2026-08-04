@@ -210,6 +210,19 @@ def test_news_uncertainty_margin():
     assert ForecastService._news_uncertainty_margin(0.1) == 0.0
 
 
+def test_filter_news_context_items_threshold_and_cap():
+    items = [
+        MagicMock(title=f"Item {i}", relevance_score=score, url=f"https://example.com/{i}", published_date="2026-07-17")
+        for i, score in enumerate([0.95, 0.85, 0.8, 0.75, 0.9, 0.99, 0.5, 0.88, 0.82, 0.7], start=1)
+    ]
+    filtered = ForecastService._filter_news_context_items(items)
+
+    assert len(filtered) == 6
+    assert all(item.relevance_score > 0.8 for item in filtered)
+    assert filtered[0].relevance_score == 0.99
+    assert filtered[-1].relevance_score == 0.82
+
+
 def test_trend_computation():
     rising = [10.0, 12.0, 15.0, 18.0, 22.0]
     falling = [22.0, 18.0, 15.0, 12.0, 10.0]
