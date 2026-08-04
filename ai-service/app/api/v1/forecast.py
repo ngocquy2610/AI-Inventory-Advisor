@@ -17,4 +17,6 @@ def create_forecast(request: ForecastRequest, db: Session = Depends(get_db)):
         product_id=request.product_id,
         store_id=request.store_id,
         horizon_days=request.horizon_days,
+        geolocate=request.geolocate,
+        localtime=request.localtime,
     )
